@@ -1,0 +1,78 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+ 
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  /* Tambahkan CSS untuk header-right */
+  .header-right{
+    display:none;
+    /*text-align: center;*/
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon{
+    color: white;
+    display:block;
+  }
+  .top-wrapper p {
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  input, textarea{
+    width: 100%;
+  }
+  .top-wrapper p {
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  footer p{
+    margin-left: 10px;
+
+  }
+
+  footer img{
+  margin-left:-250px;
+   
+ }
+}
+
